@@ -1,0 +1,9 @@
+<!-- templates/home.html -->
+
+<h1>Mesaj tahtası Anasayfa</h1>,
+
+<ul>
+    {% for post in postlist %}
+    <li>{{post.text}}</li>
+    {% endfor %}
+</ul>
